@@ -12,9 +12,9 @@
 
 
 
-// let num1 = +prompt("Enter a number: ");
-// let num2 = +prompt("Enter another number: ");
-// let num3 = +prompt("Enter another number: ");
+// let num1 = Number(prompt("Enter a number: "));
+// let num2 = Number(prompt("Enter another number: "));
+// let num3 = Number(prompt("Enter another number: "));
 // if(num1 > num2 && num1 > num3){
 //     console.log(num1, " is the largest number");
 // }else if(num2 > num1 && num2 > num3){
@@ -27,7 +27,7 @@
 
 
 
-// let num = +prompt("Enter a number: ");
+// let num = Number(prompt("Enter a number: "));
 // switch (true) {
 //     case num < 0:
 //         console.log(num, "is a negative number");
@@ -44,7 +44,7 @@
 // }
 
 
-// let marks = +prompt("Enter your marks: ");
+// let marks = Number(prompt("Enter your marks: "));
 // switch(true){
 //     case marks >= 90:
 //         console.log("A");
@@ -86,3 +86,64 @@
 // }else{
 //     console.log("Incorrect password");
 // }
+
+
+
+
+// Basic Level
+// Find GPA per subject using Switch Statement and also find Grade of that student
+
+// let obtainedMarks = Number(prompt("Enter your obtained marks: "));
+// let totalMarks = 85;
+// let totalGPAPerSubject = 4;
+// let gpa = parseFloat((obtainedMarks / totalMarks) * totalGPAPerSubject).toFixed(2);
+// gpa = Number(gpa);
+// switch (true) {
+//     case gpa >= 3.8:
+//         console.log("Your GPA is: ", gpa, " and your Grade is A");
+//         break;
+//     case gpa >= 3.3:
+//         console.log("Your GPA is: ", gpa, " and your Grade is B");
+//         break;
+//     case gpa >= 2.8:
+//         console.log("Your GPA is: ", gpa, " and your Grade is C");
+//         break;
+//     case gpa >= 2.35:
+//         console.log("Your GPA is: ", gpa, " and your Grade is D");
+//         break;
+//     default:
+//         console.log("Your GPA is ",gpa," You are fail");
+//         break;
+// }
+   
+
+// Advanced Level 
+// let userBill = Number(prompt("Enter your bill: "));
+// let discount;
+// let discountedBill;
+// switch(true){
+//     case userBill >= 1000 && userBill <= 5000:
+//         discount = userBill * (10/100);
+//         discountedBill = userBill - discount;
+//         console.log("Total Bill", userBill);
+//         console.log("Discount : ",discount);
+//         console.log("Discounted Bill : ", discountedBill);
+//         break;
+    
+//     case userBill >= 5001 && userBill <= 10000:
+//         discount = userBill * (20/100);
+//         discountedBill = userBill - discount;
+//         console.log("Total Bill", userBill);
+//         console.log("Discount : ",discount);
+//         console.log("Discounted Bill : ", discountedBill);
+//         break;
+
+//     case userBill >= 10001 && userBill <= 20000:
+//         discount = userBill * (30/100);
+//         discountedBill = userBill - discount;
+//         console.log("Total Bill", userBill);
+//         console.log("Discount : ",discount);
+//         console.log("Discounted Bill : ", discountedBill);
+//         break;
+// }
+

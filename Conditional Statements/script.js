@@ -147,3 +147,27 @@
 //         break;
 // }
 
+
+
+// Traffic Lights
+
+// let color = prompt("Enter the color of the traffic light: ");
+
+//     switch(color) {
+//         case "red":
+//             console.log("Light is Red!, Please Stop! 🛑");
+//             break;
+//         case "yellow":
+//             console.log("Light is Yellow!, Please Wait! 🚦");
+//             break;
+//         case "green":
+//             console.log("GO! ✅");
+//             break;
+//         default:
+//             console.log("Invalid color! ❌");
+//     }
+
+
+
+
+

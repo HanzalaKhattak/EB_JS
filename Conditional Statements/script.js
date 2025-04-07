@@ -1,3 +1,55 @@
+//What is a conditional statement?
+//A conditional statement is a statement that is written in the "If p, then q" format, 
+// where p is called the hypothesis and q is called the conclusion.
+
+
+// Difference between if-else and ternary operators?
+// In JavaScript, the choice between if-else statements and ternary operators depends on the complexity of the condition and the need for code readability. If-else statements are more expressive and suitable for complex conditions and multiple branches of execution, whereas ternary operators provide a more concise way to achieve the same goal, making your code easier to read and maintain 
+
+
+// Write script to print numbers from 1 to 10
+
+// for(let i = 0; i < 10; i++){
+//     console.log(i);
+// }
+
+// Write a script to check whether a number is divisible by 5 using a while loop
+
+// let randomNumber = Number(prompt("Enter a Number"));
+// while(randomNumber != 5){
+//     if(randomNumber %= 5){
+//         console.log(`${randomNumber} is divisible by 5`)
+//     }else{
+//         console.log(`${randomNumber} is not divisible by 5`)
+//     }
+// }
+
+// Difference between while and d0-while loop
+// In JavaScript, the while loop checks the condition before executing the loop body, potentially skipping it entirely if the condition is initially false. On the other hand, the do-while loop executes the loop body at least once before checking the condition.
+
+// Create a program to count the number of digits in a given number using a while loop
+// let number = Number(prompt("Enter a number:"));
+// number = Math.abs(number);
+// let digitCount = 0;
+// if (number === 0) {
+//     digitCount = 1;
+// } else {
+//    while (number > 0) {
+//      number = Math.floor(number / 10); 
+//        digitCount++;
+//    }
+//}
+//console.log(`The number has ${digitCount} digit(s).`);
+
+
+// print numbers from 10 to 1;
+
+// let i;
+// for(i = 10; i >= 1; i--){
+//     console.log(i);
+// }
+
+
 // let marks = prompt("Enter your marks: ");
 // console.log(marks, typeof(marks));
 
@@ -25,7 +77,7 @@
 //     console.log("The numberss you entered are equal");
 // }
 
-
+// Program for checking the Positive, Negative or Zero number
 
 // let num = Number(prompt("Enter a number: "));
 // switch (true) {
@@ -168,6 +220,14 @@
 //     }
 
 
-
+// write a script tha ask a user for a number untill its sum is greater than 100
+// let sum = 0;
+// while(sum <= 100){
+//     numbersToAdd = Number(prompt("Enter a Number"));
+//     console.log(`The Current sum id ${sum}`);
+//     sum += numbersToAdd;
+    
+// }
+// console.log("The total sum is greater than 100");
 
 

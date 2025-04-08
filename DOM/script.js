@@ -66,3 +66,23 @@
 // onHoverEffect.addEventListener("mouseout", function() {
 //     onHoverEffect.style.border = "none";
 // });
+
+// document.getElementById('submitBtn').addEventListener('click', function() {
+//     alert('Form submitted!');
+//   });
+
+// document.querySelector('.hover-box').addEventListener('mouseover', function() {
+//     this.style.backgroundColor = 'lightblue';
+//   });
+
+// document.querySelector('.hover-box').addEventListener('mouseout', function() {
+//     this.style.backgroundColor = 'lightgray';
+//   });
+
+// document.getElementById('para').addEventListener('dblclick', function() {
+//     this.textContent = 'Text changed!';
+//   });
+
+// document.getElementById('inputKeyUp').addEventListener('keyup', function() {
+//     console.log(this.value);
+//   });   

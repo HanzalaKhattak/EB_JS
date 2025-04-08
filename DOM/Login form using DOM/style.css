@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: none;
+    background-color: none;
+}
+
+body{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    background-color: #f0f0f0; 
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 100px;
+    width: 300px;
+    gap: 10px;
+    border: 2px solid red;
+    padding: 15px;
+}
+
+table{
+    border : 2px solid red;
+    margin-top: 100px;
+}
+
+td{
+    border: 2px solid red;
+    width: 150px;
+}
+
+#table-head{
+    text-align: center;
+}

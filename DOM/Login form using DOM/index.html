@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+</head>
+<body>
+    <div class="left-side">
+        <form class="flex items-center justify-center h-screen flex-col gap-4 border">
+            <input type="text" id="username" placeholder="Enter your Username">
+            <input type="email" id="email" placeholder="Enter your email">
+            <input type="password" id="password" placeholder="Enter your password">
+            <input type="password" id="confirm-password" placeholder="Confirm your password">
+            <button id="btn-submit" onclick="submitForm(event)">Submit</button>
+        </form>
+    </div>
+    <div class="right-side">
+        <table>
+            <tr>
+                <th id="table-head" colspan="2">User Credintials</th>
+            </tr>
+            <tr>
+                <td>Username :</td>
+                <td id="showUsername"></td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td id="showEmail"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td id="showPassword"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

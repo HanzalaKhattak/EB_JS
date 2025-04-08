@@ -50,8 +50,19 @@
 //       div.innerText = "Updated!";
 //     });
 
-let arr = [1,2,3,4,5,6,7,8,9,10];
-console.log(arr)
-console.log(arr.slice(1,7));
-console.log(arr.splice(1,7)); ;
-console.log(arr.indexOf(4));
+// let paragraphContent = document.getElementById("para").innerText = "HI Hanzala, I am Seoyeong!";
+// function changeDivColor(){
+//     document.getElementById("box").style.backgroundColor = "red";
+// }
+
+// let onHoverEffect = document.getElementById("myImage");
+
+// // Add mouseover event to apply the border
+// onHoverEffect.addEventListener("mouseover", function() {
+//     onHoverEffect.style.border = "5px solid red";
+// });
+
+// // Add mouseout event to remove the border
+// onHoverEffect.addEventListener("mouseout", function() {
+//     onHoverEffect.style.border = "none";
+// });

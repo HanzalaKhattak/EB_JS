@@ -86,3 +86,22 @@
 // document.getElementById('inputKeyUp').addEventListener('keyup', function() {
 //     console.log(this.value);
 //   });   
+
+let unorderedList = document.getElementById("list");
+let item = document.getElementById("item");
+item.innerHTML = "I am an Element!";
+let replaceBtn = document.getElementById("replaceBtn");
+let newItem = document.createElement("li");
+newItem.innerHTML = "I am a new Element!";
+
+// Add event listener to the replace button
+replaceBtn.addEventListener("click", function () {
+    if (unorderedList.contains(item)) {
+        // Replace the old item with the new item
+        unorderedList.replaceChild(newItem, item);
+    } else if (unorderedList.contains(newItem)) {
+        // Replace the new item with the old item
+        unorderedList.replaceChild(item, newItem);
+    }
+});
+
